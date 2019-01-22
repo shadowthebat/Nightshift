@@ -1,7 +1,8 @@
 import pyautogui
 # Script that toggles nightshift mode on my mac
-pyautogui.PAUSE = 1
-pyautogui.FAILSAFE = True
+
+pyautogui.PAUSE = 1 # waits one second inbetween clicks
+pyautogui.FAILSAFE = True # breaks script uppon moving pointer to upperleft screen
 
 # click the apple
 pyautogui.click(x=29, y=15, clicks=1, button='left')
